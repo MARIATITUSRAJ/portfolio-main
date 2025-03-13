@@ -6,26 +6,26 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     width: 100vw;
 }
 
 .projects-title {
     font-size: 3rem;
     margin-bottom: 2.5rem;
-    font-weight: 700;
+    font-weight: 800;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
 }
 
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2.5rem;
-    max-width: 1200px;
+    gap: 2rem;
+    max-width: 1500px;
     width: 100%;
 }
 
@@ -35,7 +35,9 @@
     border-radius: 15px;
     padding: 1.5rem;
     width: 300px;
-    text-align: left;
+    display: grid;
+    text-align: center;
+    justify-content: center;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     position: relative;
 }

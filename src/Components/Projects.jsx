@@ -26,13 +26,22 @@ const projects = [
     {
         id: 3,
         title: 'Gas Booking App',
-        description: " At Giant Power, we're committed to transforming the way you refuel. Our innovative gas slot booking app is designed to eliminate the hassles of traditional refueling by providing a seamless, efficient, and stress-free experience.",
+        description: " At Giant Power, we're committed to transforming the way you refuel. Our innovative gas slot booking app is designed to eliminate the hassles of traditional refueling by providing a seamless, efficient, and stress-free experience. It Allows users to manage their profiles, update contact information, and view their booking history.",
         link: 'https://gasslotbookingapp.netlify.app/',
         image: '/gasslotbooking app.png',
         githubFrontend: 'https://github.com/MARIATITUSRAJ/CAPSTONEFD.git',
         githubBackend: 'https://github.com/MARIATITUSRAJ/CAPSTONEBD.git'
-    }
+    },
 
+     {   id: 4,
+        title: 'Dice Game',
+        description: "Dice games are meant to be enjoyable, so don't get too caught up in the strategy and forget to have fun. Familiarize yourself with the rules and strategies of the specific dice game you're playing. Be flexible and adjust your strategy based on the current game state and your opponents' actions.  ",
+        link: 'https://dicegameone.netlify.app/',
+        image: '/dicegame.png',
+        githubFrontend: 'https://github.com/MARIATITUSRAJ/Dice---Game.git',
+        githubBackend: 'https://github.com/MARIATITUSRAJ/Dice---Game.git'
+
+   }
     // Add more projects as needed
 ];
 
