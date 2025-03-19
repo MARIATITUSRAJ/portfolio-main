@@ -7,7 +7,7 @@ const HeroSection = () => {
     const [containerRef, isVisible] = useIntersectionObserver({ threshold: 0.1 });
     const [displayText, setDisplayText] = useState('');
     const [typingCompleted, setTypingCompleted] = useState(false); // New state to track typing completion
-    const fullText = "I'm a passionate developer, Interested in Frontend and Fullstack";
+    const fullText = "I'm a Passionate Developer, Interested in Frontend and Fullstack";
 
     useEffect(() => {
         if (isVisible && !typingCompleted) { // Check if typing is not yet completed
@@ -31,11 +31,11 @@ const HeroSection = () => {
             animate={{ opacity: isVisible ? 1 : 0 }}
             transition={{ duration: 1 }}
         >
-            <h1>Hi,I am Maria Titus Raj M.</h1>
+            <h1>Hi,I am Maria Titus Raj M</h1>
             <h1>Welcome to My Portfolio</h1>
             <p>{displayText}</p>
             <a
-                href="\Titus FSD Resume.pdf" // Replace with the actual path to your resume
+                href="\MTR FSD Resume.pdf" // Replace with the actual path to your resume
                 download
                 className="download-button"
             >

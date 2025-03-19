@@ -1,7 +1,7 @@
 .navbar {
     background-color: #343a40;
     padding: 1rem;
-    position: fixed;
+    position: center;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -12,6 +12,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items:right;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +24,9 @@
 .navbar ul li a {
     color: white;
     text-decoration: none;
+    display:Flex;
+    align-items:right;
+    font-weight: bold;
     font-size: 1rem;
     transition: color 0.3s ease-in-out;
 }
